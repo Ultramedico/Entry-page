@@ -1,0 +1,153 @@
+
+
+body {
+    background-color: rgb(1, 31, 53) !important;
+}
+
+
+
+
+label{ 
+  margin-top: 5% ;
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{  font-size: 1rem !important;
+        border-radius: 10px ;   
+}
+select{ font-size: 1rem !important;
+        border-radius: 10px;  
+}
+
+table
+
+{
+    width: 80%;
+    border-radius: 60px;
+    background-color: white;
+    border-collapse: separate !important;
+    margin: 100px auto;
+    
+    
+}
+th{ 
+ 
+border-style: none !important ;
+ border-radius: 60px;  
+ padding-top: 7%;
+ padding-bottom: 5%;
+ text-align: center !important;
+
+ 
+}
+
+td{ 
+  font-size: 1rem; 
+ padding: 20px 6% 6% ;
+  font-family: ui-san-serif;
+}
+
+
+
+
+
+
+
+@media ( min-width: 900px ){
+  th{ font-size: 1rem;}
+ 
+ }
+ @media ( max-width: 900px) and ( min-width:480px ){
+  th{ font-size: 0.8rem !important;}
+  
+  td{ 
+  font-size: 1rem !important;}
+ }
+ @media ( max-width: 480px){
+  th{ font-size: 0.4rem !important;}
+ 
+  
+  td{ 
+    font-size: 0.8rem !important;}
+ 
+  
+ }
+
+
+
+th:nth-child(odd) {
+    background-color: rgb(1, 31, 53);
+    border-width: 0.2em;
+    color: white;
+    
+}
+
+
+
+
+
+.submit-btn {
+ 
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 1rem;
+    background: #035d9c57;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 7% 0% 5%;
+    border-width: 1px;
+    border-color: white;
+
+    /* position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  */
+  }
+
+
+
+
+            
+.submit-btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: #011f35;
+    border-width: 1px;
+    border-color: #011f35;
+  }
+
+
+ 
+
+ /*Footer */
+
+ footer{ 
+  background-color: rgb(39, 38, 38);
+ text-align: center;
+ font-size: 0.8rem;
+ color: #4d4d4d;
+ margin-top: 50px;
+ }
+
+  
+  /* LOADER */
+  
+  /* #loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  
